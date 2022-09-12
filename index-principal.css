@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Nunito:wght@300;400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.contenedor-seccion {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(./mujer-hidro1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.centro-seccion h2{
+    font-size: 5.1em;
+    font-family: 'Caveat';
+    margin-left: 100px;
+   
+}
+
+.book button{
+    padding: 20px 45px;
+    margin-top: 20px;
+    background-color: black;
+    color:white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 250px;
+}
+
+.book button:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 5px 10%;
+}
+
+.header .logo img {
+    height: 120px;
+    width: auto;
+    margin-top: 30px;
+
+}
+
+.menu-icon, #check {
+    display: none;
+}
+
+header .nav-links {
+    list-style: none;
+    font-size: 1.1em;
+}
+
+.menu-icon img{
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links li:hover {
+    transform: scale(1.1);
+}
+
+.nav-links li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+
+.btn button {
+    font-weight: 900;
+    color: white;
+    padding: 9px 25px;
+    background-color: black;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Nunito', sans-serif;
+}
+
+.btn button:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+
+}
+
+
+.vacio {
+    width: 100%;
+    height: 1000px;
+
+}
+
+.contenedor-imagenes {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+    grid-auto-rows: minmax(300px, auto);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 80px;
+
+}
+
+.imagen-velas img {
+    height: 550px;
+    width: 400px;
+    margin-top: 40px;
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+.imagen-velas img:hover {
+    transform: scale(1.1);
+    background-color: rgba(31,31,31,0.9);
+    opacity: 1;
+}
+
+
+
+.imagen-masajes img {
+    height: 550px;
+    width: 400px;
+    margin-top: 40px;
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.imagen-masajes img:hover {
+    transform: scale(1.1);
+}
+
+.imagen-herramientas img {
+    height: 550px;
+    width: 400px;
+    margin-top: 40px;
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+
+    }
+
+
+.imagen-herramientas img:hover {
+    transform: scale(1.1);
+}
+
+.imagen-bata img{
+    height: 550px;
+    width: 400px;
+    margin-top: 40px;
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+.imagen-bata img:hover {
+    transform: scale(1.1);
+}
+
+
+.informacion {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+
+.contenedor-formulario {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    place-items: center;
+    margin:auto;
+    width: 100%;
+    height: 800px;
+    background: #fff;
+    position: relative;
+    background-image: url(./imagen-pies.jpg);
+    background-size: cover;
+    margin-top: 100px;
+   
+}
+
+
+
+
+form {
+    width: 450px;
+    margin-top: 70px;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    position:initial;
+    
+
+}
+
+form h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+form input,textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background-color: #31384A;
+    color: #fff;
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+
+}
+
+.imagen-pies img{
+    height: 600px;
+    width: 450px;
+    margin-top: 40px;
+    border-radius: 5px;
+
+}
+
+footer {
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #fff;
+}
+
+.contenedor-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.box-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box-footer .logo img{
+    width: 150px;
+}
+
+.box-footer .terminos {
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.box-footer h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.box-footer a {
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+    text-decoration: none;
+}
+.box-footer a:hover {
+    opacity: 0.8;
+}
+
+.box-footer a .fab {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.box-copyright {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box-copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+
+.box-copyright hr {
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+
+@media (max-width:854px) {
+    .checkbtn{
+        display: block;
+    }    
+
+    .menu-icon {
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 66px;
+        left: -100%;
+        background-color:rgba(255, 255, 255, 0.637);
+        width: 100%;
+        height: 30vh;
+        right: 0;
+
+    }
+
+    .btn button {
+        display: block;
+        position: fixed;
+        top: 70px;
+        left: -100%;
+    }
+
+
+    .nav-links ul li {
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .nav-links ul li:last-child{
+        background: none;
+        padding: 1rem;
+    }
+
+    #check:checked ~ ul{
+        left:0;
+        transition: all .25s;
+
+    }
+
+    .centro-seccion h2 {
+        display: none;
+    }
+
+    .btn button {
+        display: block;
+        justify-content: center;
+        position: fixed;
+    }
+
+}
