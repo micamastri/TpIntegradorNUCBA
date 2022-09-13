@@ -1,0 +1,22 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index-registro.css">
+    <title>Registrarse</title>
+</head>
+<body>
+        <form action="registrar.php" method="post" class="form-registro">
+            <h2 class="form-titulo">Crea una cuenta</h2>
+            <div class="contenedor-inputs">
+                <input type="text" name="nombre" placeholder="Nombre" class="input-50" required>
+                <input type="text" name="apellido" placeholder="Apellido" class="input-50" required>
+                <input type="email" name="correo" placeholder="Correo electronico" class="input-100" required>
+                <input type="text" name="Usuario" placeholder="Usuario" class="input-50" required>
+                <input type="password" name="contraseña" placeholder="Contraseña" class="input-50" required>
+                <input type="text" name="telefono" placeholder="Telefono" class="input-100" required>
+                <input type="submit" value="Registrar" class="btn-enviar">
+                <p class="form-link">¿Ya tienes una cuenta? <a href="#">Ingresa aquí</a></p>
+            </div>
+        </form>
+</body>
+</html>
